@@ -8,7 +8,7 @@ For the purposes of this work, a single user's data (User 1004) has been setup f
 
 Python Notebooks have already been run with Google Colab and the Git repo shows extracted features with EDA and modelling evalution plots and results.
 
-Feature Extraction workflow:
+# Feature Extraction workflow:
   1. Open Feature_Extraction.ipynb
   2. Mount Google Drive (code block ln[1])
   2. Edit 'savedir' to shared link provided by email ('Data' folder was shared)
@@ -17,7 +17,7 @@ Feature Extraction workflow:
   5. Run 'EDA' section if plots and visualizations of features are desired.
   6. Finally run 'Processing & Saving loop' to extract these features from raw signal data
   
-Modelling Pipeline:
+# Modelling Pipeline:
   1. Open Modelling_Pipeline.ipynb
   2. Mount Google Drive (code block ln[1])
   2. Edit 'savedir' to shared link provided by email ('Data' folder was shared)
@@ -29,3 +29,5 @@ Modelling Pipeline:
   8. Finally process the features and model each section with the proposed model - Random Forest.
   9. Observe the evaluation results with the plots and output metrics.
   
+# Citation Information
+The Modelling pipeline notably mentions and references some feature extraction functions which have been adapted for use in the current project. The original functions for Gait and Tremor clasisifcation and feature extraction is available at: https://github.com/NikhilMahadevan/analyze-tremor-bradykinesia-PD.git
